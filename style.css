@@ -196,3 +196,36 @@ position: relative;
 right: 15rem;
 top:4rem
 }
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: calc(50% - 1rem);
+        margin: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading1 {
+        font-size: 1.5rem;
+    }
+
+    .heading2 {
+        font-size: 1.25rem;
+    }
+
+    .heading3 {
+        font-size: smaller;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
